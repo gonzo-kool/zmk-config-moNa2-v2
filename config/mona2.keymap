@@ -69,6 +69,14 @@
 
             tap-ms = <20>;
         };
+
+        scroll_down_up: mouse_wheel_down_up {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <20>;
+        };
     };
 
     keymap {
@@ -82,7 +90,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 2 SPACE  &lt_to_layer_0 1 SPACE    &lt 2 BACKSPACE  &mt RIGHT_SHIFT ENTER                             &kp LEFT_ALT
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
 
         layer_1 {
@@ -104,7 +112,7 @@
 &trans           &trans       &trans             &trans      &trans       &trans     &trans   &trans                                             &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
 
         layer_3 {
@@ -126,7 +134,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
 
         MOUSE {
@@ -137,7 +145,7 @@
 &trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans                                &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
 
         SCROLL {
@@ -148,7 +156,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
     };
 };
