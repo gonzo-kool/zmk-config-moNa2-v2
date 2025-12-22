@@ -94,10 +94,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                                   &kp Y                   &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G                                  &lt 4 DELETE     &kp H                   &kp J  &kp K      &kp L    &mt2 EQUAL MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &lt 2 LANG2               &lt 3 LANG1      &kp N                   &kp M  &kp COMMA  &kp DOT  &mt2 RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 2 SPACE  &lt_to_layer_0 1 SPACE    &lt 2 BACKSPACE  &mt2 RIGHT_SHIFT ENTER                             &kp LEFT_ALT
+&kp Q             &kp W         &kp E         &kp R         &kp T                                                               &kp Y                   &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F         &kp G                                              &lt 4 DELETE     &kp H                   &kp J  &kp K      &kp L    &mt2 EQUAL MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V         &kp B                    &lt 6 LANG2               &lt 3 LANG1      &kp N                   &kp M  &kp COMMA  &kp DOT  &mt2 RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 DELETE  &mt2 LEFT_CONTROL SPACE  &lt_to_layer_0 1 SPACE    &lt 2 BACKSPACE  &mt2 RIGHT_SHIFT ENTER                             &kp LEFT_ALT
             >;
 
             sensor-bindings = <&scroll_down_up>;
@@ -105,10 +105,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &trans  &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp BACKSLASH
-&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans        &trans                &trans                 &trans        &kp PIPE
-&trans        &trans        &trans            &trans             &trans        &trans    &trans  &trans                                                                   &trans
+&mt2 F1 NUMBER_1  &mt2 F1 NUMBER_2  &mt2 F3 NUMBER_3  &mt2 F4 NUMBER_4   &mt2 F5 NUMBER_5                        &mt2 F6 NUMBER_6  &mt2 F7 NUMBER_7      &mt2 F8 NUMBER_8       &mt2 F9 NUMBER_9  &mt2 F10 NUMBER_0
+&mt2 F11 GRAVE    &mt2 F12 SQT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                      &trans      &trans            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &kp BACKSLASH
+&trans            &trans            &kp SEMICOLON     &trans             &trans            &trans    &trans      &trans            &trans                &trans                 &trans            &kp PIPE
+&trans            &trans            &trans            &trans             &trans            &trans    &kp DELETE  &trans                                                                           &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
