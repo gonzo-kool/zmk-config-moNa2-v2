@@ -97,7 +97,7 @@
 &kp Q             &kp W         &kp E         &kp R         &kp T                                                               &kp Y                   &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F         &kp G                                              &lt 4 DELETE     &kp H                   &kp J  &kp K      &lt 6 L  &mt2 EQUAL MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V         &kp B                    &lt 6 LANG2               &lt 3 LANG1      &kp N                   &kp M  &kp COMMA  &kp DOT  &mt2 RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 DELETE  &mt2 LEFT_CONTROL SPACE  &lt_to_layer_0 1 SPACE    &lt 2 BACKSPACE  &mt2 RIGHT_SHIFT ENTER                             &kp LEFT_ALT
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 5 DELETE  &mt2 LEFT_CONTROL SPACE  &lt_to_layer_0 1 SPACE    &lt 2 BACKSPACE  &mt2 RIGHT_SHIFT ENTER                             &kp LEFT_ALT
             >;
 
             sensor-bindings = <&scroll_down_up>;
