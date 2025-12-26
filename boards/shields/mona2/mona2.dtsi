@@ -3,6 +3,10 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <physical_layouts.dtsi>
 
+&zip_temp_layer {
+    require-prior-idle-ms = <200>;
+};
+
 / {
     chosen {
         zmk,physical-layout = &physical_layout0;
@@ -83,10 +87,6 @@
                 , <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
                 , <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 			
                 ;
-    };
-
-    &zip_temp_layer {
-        require-prior-idle-ms = <200>;
     };
 
     //right hand trackball
