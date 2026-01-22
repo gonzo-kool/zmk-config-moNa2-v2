@@ -38,6 +38,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <38 39>;
         };
+
+        HiraganaCombo {
+            bindings = <&kp F15>;
+            key-positions = <35 0>;
+        };
     };
 
     macros {
